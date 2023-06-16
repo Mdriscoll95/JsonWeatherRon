@@ -8,18 +8,18 @@ namespace APIsAndJSON
     {
         static void Main(string[] args)
         {
-           //for(int i = 0; i < 5; i++)
-           // {
-           //     RonVSKanyeAPI.Kanye();
-           //     RonVSKanyeAPI.Ron();
+            for (int i = 0; i < 5; i++)
+            {
+                RonVSKanyeAPI.Kanye();
+                RonVSKanyeAPI.Ron();
 
 
 
-                
-           // }
-           
-            
-                OpenWeatherMapAPI.Weather();
+
+            }
+
+
+            OpenWeatherMapAPI.Weather();
             Console.ReadLine();
             
             
